@@ -1072,9 +1072,13 @@ form {
 }
 
 .button_contactme {
-  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', Verdana, sans-serif;
   font-style: normal;
-  font-weight: 550;
+  font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -1094,12 +1098,33 @@ form {
 .button_contactme:hover {
   color: #fff;
   background: #6070ff;
+  cursor: pointer;
+}
+
+.button_contactme:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+.button_contactme:enabled {
+  color: #6070ff;
+  background: #fff;
+}
+
+.button_contactme:disabled {
+  color: #5e6c84;
+  background: #fff;
 }
 
 #message {
   position: absolute;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  font-family: 'Poppins', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
   width: 327px;
   height: 170px;
   padding: 15px 38px 15px 16px;
@@ -1112,6 +1137,11 @@ form {
   top: 420px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  font-family: 'Poppins', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
   width: 327px;
   height: 48px;
   padding: 15px 38px 15px 16px;
@@ -1122,6 +1152,11 @@ form {
   position: absolute;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  font-family: 'Poppins', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
   top: 350px;
   width: 327px;
   height: 48px;
